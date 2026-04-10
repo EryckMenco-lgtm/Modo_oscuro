@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+div {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.737);
+    color: aqua;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.737);
+}
+
+ .oscuro div {
+  background-color: #eeeeee;
+  color: #203a43;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #5f5fff;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #50ff31;
+}
+
+.contenedor.oscuro {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+
+}
